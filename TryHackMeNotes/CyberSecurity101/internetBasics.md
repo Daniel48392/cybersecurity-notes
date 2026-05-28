@@ -1,1 +1,11 @@
-.
+## What I learned:
+  - DNS (Domain Name System) - exchanges web addresses for the IP address of the website your accessing
+  - Domain hierarchy - admin.generic.com, admin is the subdomain, generic is the second-level domain, .com is the top-level domain
+  - HTTP Status Codes - 3 digit number that informs the client about the outcome of their request
+  - URL - uniform resource locator
+  - Website headers - small pieces of meta data, request and response, sent between your browser and the website your accessing
+  - Website Front end (Client side) - the way your browser renders the website
+  - Website Back end (Server side) - a server that processes your request and returns a response
+  - Sensitive data exposure - can occur when private credentials/information is left a websites HTML or JS (front end)
+  - HTML injection - if user input is not sanitised on a website, a user can input their own html and script into the website that will be executed
+  - Load balancer - spreads out the website requests evenly across servers

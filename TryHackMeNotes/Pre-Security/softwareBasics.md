@@ -1,1 +1,14 @@
-. 
+## What I learned
+  - Decimal, Binary, Octal, Hexadecimal conversion
+  - Encoding - numbers with agreed specific meaning, agreements can vary
+  - Unicode - replaces most encodings such as ASCII and extended ASCII as it accomodates all writing systems
+  - Unicode encoders:
+      - UTF-8 - most common uses 1-4 bytes per character, most space efficient and backwards compatible with older ASCII text
+      - UTF-16 - uses 2-4 bytes per character, used in certain programming languages
+      - UTF-32 - 4 bytes per character, easier for the computer to read, very space inefficient
+  - Javascript:
+      - `let variableName = 70;` - delcares a variable to equal 70
+      - `const constantName = 70;` - delcares a constant to equal 70
+      - `Math.random()` - generates a number between 0 (included) and 1 (excluded), example: 0.375
+      - `console.log("Message");` - prints statement to console
+      - `parseInt(text, 10);` - converts text to a integer and the integer gets converted to base 10
